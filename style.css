@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.cancelit {
+    display: none;
+    width: 1000px;
+    height: 100vh;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+}
+
+.btn {
+    background-color: #fff;
+}
+
+.btn:focus {
+    background-color: #fff;
+    border: none;
+}
